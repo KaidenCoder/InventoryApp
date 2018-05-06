@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* This project is done by Khaidem Sandip Singha under the Udacity Android Foundations Nanodegree program.
+    *
+    * I confirm that this submission is my own work. I have not used code from any other Udacity student's or graduate's submission of the same project.
+    * I understand that Udacity will check my submission for plagiarism, and that failure to adhere to the Udacity Honor Code may result in the cancellation of my
+    * enrollment.
+    *-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="@dimen/padding_zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black_color"
+                tools:text="Puzzle Name"/>
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/greyish_color"
+                tools:text="Author Name"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/greyish_color"
+                tools:text="Price"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/padding_zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Quantity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/address_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Address"
+                android:textAppearance="@style/Base.ThemeOverlay.AppCompat.Light"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image_view_list"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/padding_six_five"
+        android:layout_height="@dimen/padding_eighty"
+        tools:src="@drawable/ic_launcher_background"
+        />
+
+    <Button
+        android:id="@+id/sell_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding"
+        android:background="@color/colorAccent"
+        android:text="@string/list_item_sell_puzzle" />
+</LinearLayout>

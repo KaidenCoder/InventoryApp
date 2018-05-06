@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="padding_eight">8dp</dimen>
+    <dimen name="padding_six">6dp</dimen>
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="padding_big">56dp</dimen>
+    <dimen name="padding_six_five">65dp</dimen>
+    <dimen name="padding_eighty">80dp</dimen>
+
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="text_size">16sp</dimen>
+</resources>
